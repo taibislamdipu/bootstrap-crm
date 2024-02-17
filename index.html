@@ -18,93 +18,173 @@
     <!-- bootstrap 4.3.1 css -->
     <link
       rel="stylesheet"
-      href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
 
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="py-md-5 pt-3 pb-5 wrapper">
-    <div class="container-fluid py-md-5 py-3 px-md-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5">
-          <h2 class="mb-4 text-dark fw-500">Tasks in CRM</h2>
-          <p class="pr-md-5 pb-3 pb-md-0 text-secondary">
-            If you have a loyal audience and good taste, we should chat. We’d
-            love to keep you in the loop with first looks at our latest releases
-            and exciting collaborations. Whether you're a publisher or website
-            in the fashion and lifestyle realm, or a product review platform,
-            join our affiliate program and earn commissions through driving
-            sales on our website. Apply today and let's make some magic happen.
-          </p>
-        </div>
-        <div class="col-md-7">
-          <img
-            class="img-fluid rounded-img shadow"
-            src="./assets/dashboard-1.webp"
-            alt="dashboard"
-            draggable="false"
-            loading="lazy"
-          />
-        </div>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light py-3 px-md-5 sticky-top position-absolute w-100"
+    >
+      <a class="navbar-brand" href="#">
+        <img src="./assets/shoot-count-logo.png" alt="ShootCount Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto align-items-center font-weight-bold">
+          <li class="nav-item active mr-4 font">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link" href="#"
+              >Contact <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <img
+              class="rounded-pill w-25 mr-2"
+              src="/assets/user.jpg"
+              alt="user"
+            />
+            <a class="nav-link" href="#"
+              >My Account <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      class="banner d-flex align-items-center justify-content-center vh-100 text-white"
+    >
+      <div class="text-center">
+        <h1 class="mb-4 display-3 font-weight-bold">
+          <span class="text-success">Shoot</span> More
+          <span class="text-success">Manage</span> Smart
+        </h1>
+        <p class="mb-4 w-50 mx-auto font-weight-bold">
+          Manage your day-to-day Photography operation with great efficiency.
+          Take advantage of our FREE CRM specially designed for Photographers
+          and Studios.
+        </p>
+        <button class="btn btn-success btn-lg mb-3 font-weight-bold">
+          Get Started
+        </button>
       </div>
     </div>
 
-    <div class="container-fluid py-md-5 py-3 px-md-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5 order-first order-md-last pl-md-5">
-          <h2 class="mb-4 text-dark fw-500 md-w-50">
-            Lead & Contact Management
-          </h2>
-          <p class="pb-3 pb-md-0 text-secondary">
-            If you have a loyal audience and good taste, we should chat. We'd
-            love to keep you in the loop with first looks at our latest releases
-            and exciting collaborations. Whether you're a publisher or website
-            in the fashion and lifestyle realm, or a product review platform,
-            join our affiliate program and earn commissions through driving
-            sales on our website. Apply today and let's make some magic happen.
-          </p>
-        </div>
-        <div class="col-md-7 order-last order-md-first">
-          <img
-            class="img-fluid rounded-img shadow"
-            src="./assets/dashboard-2.webp"
-            alt="dashboard"
-            draggable="false"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid py-md-5 py-3 px-md-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5">
-          <h2 class="mb-4 text-dark fw-500">Tasks Reports</h2>
-          <p class="pr-md-5 pb-3 pb-md-0 text-secondary">
-            If you have a loyal audience and good taste, we should chat. We'd
-            love to keep you in the loop with first looks at our latest releases
-            and exciting collaborations. Whether you're a publisher or website
-            in the fashion and lifestyle realm, or a product review platform,
-            join our affiliate program and earn commissions through driving
-            sales on our website. Apply today and let's make some magic happen.
-          </p>
-        </div>
-        <div class="col-md-7">
-          <img
-            class="img-fluid rounded-img shadow"
-            src="./assets/dashboard-3.webp"
-            alt="dashboard"
-            draggable="false"
-            loading="lazy"
-          />
+    <main class="py-md-5 pt-3 pb-5 wrapper">
+      <div class="container-fluid py-md-5 py-3 px-md-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <h2 class="mb-4 text-dark fw-500">Tasks in CRM</h2>
+            <p class="pr-md-5 pb-3 pb-md-0 text-secondary">
+              If you have a loyal audience and good taste, we should chat. We’d
+              love to keep you in the loop with first looks at our latest
+              releases and exciting collaborations. Whether you're a publisher
+              or website in the fashion and lifestyle realm, or a product review
+              platform, join our affiliate program and earn commissions through
+              driving sales on our website. Apply today and let's make some
+              magic happen.
+            </p>
+          </div>
+          <div class="col-md-7">
+            <img
+              class="img-fluid rounded-img shadow"
+              src="./assets/dashboard-1.webp"
+              alt="dashboard"
+              draggable="false"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- bootstrap js cdn -->
-    <script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+      <div class="container-fluid py-md-5 py-3 px-md-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5 order-first order-md-last pl-md-5">
+            <h2 class="mb-4 text-dark fw-500">Lead & Contact Management</h2>
+            <p class="pb-3 pb-md-0 text-secondary">
+              If you have a loyal audience and good taste, we should chat. We'd
+              love to keep you in the loop with first looks at our latest
+              releases and exciting collaborations. Whether you're a publisher
+              or website in the fashion and lifestyle realm, or a product review
+              platform, join our affiliate program and earn commissions through
+              driving sales on our website. Apply today and let's make some
+              magic happen.
+            </p>
+          </div>
+          <div class="col-md-7 order-last order-md-first">
+            <img
+              class="img-fluid rounded-img shadow"
+              src="./assets/dashboard-2.webp"
+              alt="dashboard"
+              draggable="false"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid py-md-5 py-3 px-md-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <h2 class="mb-4 text-dark fw-500">Tasks Reports</h2>
+            <p class="pr-md-5 pb-3 pb-md-0 text-secondary">
+              If you have a loyal audience and good taste, we should chat. We'd
+              love to keep you in the loop with first looks at our latest
+              releases and exciting collaborations. Whether you're a publisher
+              or website in the fashion and lifestyle realm, or a product review
+              platform, join our affiliate program and earn commissions through
+              driving sales on our website. Apply today and let's make some
+              magic happen.
+            </p>
+          </div>
+          <div class="col-md-7">
+            <img
+              class="img-fluid rounded-img shadow"
+              src="./assets/dashboard-3.webp"
+              alt="dashboard"
+              draggable="false"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
