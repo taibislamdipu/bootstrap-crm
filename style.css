@@ -15,9 +15,22 @@ body {
 }
 
 .wrapper {
-  background-color: #f5f5f5;
+  background-color: #f3f6ff;
   max-width: 3000px;
   margin: auto;
+}
+
+.text-success {
+  color: #c0fa4e !important;
+}
+
+.btn-success {
+  background-color: #92c36a !important;
+  border: none !important;
+}
+.btn-success:hover {
+  background-color: #7aad51 !important;
+  border: none !important;
 }
 
 .rounded-img {
